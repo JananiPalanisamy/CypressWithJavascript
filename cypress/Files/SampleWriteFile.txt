@@ -1,0 +1,2 @@
+Writing in a file by giving path
+New line
