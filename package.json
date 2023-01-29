@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "log": "hello package.json log running",
-    "cy-open" :"cypress open",
+    "cy-open": "cypress open",
     "cy-run": "cypress run"
   },
   "keywords": [],
@@ -14,5 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^12.3.0"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8"
   }
 }
