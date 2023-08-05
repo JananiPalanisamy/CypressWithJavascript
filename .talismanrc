@@ -1,6 +1,6 @@
 fileignoreconfig:
-- filename: package-lock.json
-  checksum: 942ce5b900c48b7027b6323a97a9188496ae4b801bba5eb07c74beeb29c441ea
 - filename: cypress/support/commands.js
   checksum: 8242bc54c75a0dfe92fd876c8e9c0fe906630df52646de09e8ea3de7a49fc73c
+- filename: package-lock.json
+  checksum: 6972129ba662b9dc0d13ddcea7a9d6c17a5f7f167680b5873db8e0fce2366eff
 version: ""
