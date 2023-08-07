@@ -3,4 +3,6 @@ fileignoreconfig:
   checksum: 8242bc54c75a0dfe92fd876c8e9c0fe906630df52646de09e8ea3de7a49fc73c
 - filename: package-lock.json
   checksum: 6972129ba662b9dc0d13ddcea7a9d6c17a5f7f167680b5873db8e0fce2366eff
+- filename: cypress/e2e/api/getRequest.cy.js
+  checksum: 0d10a176c892bee0e8df138e105f5b3e5e458711ba933652d12a78b0fd0412f4
 version: ""
