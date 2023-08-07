@@ -1,0 +1,7 @@
+{
+  "validateTaxForProducts": {
+    "productName": "MacBook",
+    "taxValue": 500
+  },
+  "url":"www.google.com"
+}
