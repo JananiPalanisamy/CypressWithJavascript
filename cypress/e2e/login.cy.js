@@ -3,13 +3,14 @@ import {loginPage} from '../pages/loginPage.cy.js'
 const login = new loginPage()
 describe ('all login tests', ()=>{
 
-   it('Login Test', function(){
+   it.only('Login Test', function(){
    
       // login.navigate('https://trytestingthis.netlify.app/')
       login.enterCredentials('test','test')
       login.clickLoginButton()
       cy.contains('Login Successful :)') 
-      cy.contains('here').click()   
+      // cy.contains('here').click()
+      cy.clickLink('here')   
    })
    
    beforeEach(()=>

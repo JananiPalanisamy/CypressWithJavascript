@@ -16,7 +16,8 @@ module.exports = defineConfig({
       overwrite: false,
       html: false,
       json: true,
-      reportDir: "cypress/reports"
+      reportDir: "cypress/reports",
+      experimentalStudio: true
     }
   },
 });
