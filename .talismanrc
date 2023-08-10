@@ -5,4 +5,14 @@ fileignoreconfig:
   checksum: 6972129ba662b9dc0d13ddcea7a9d6c17a5f7f167680b5873db8e0fce2366eff
 - filename: cypress/e2e/api/getRequest.cy.js
   checksum: 0d10a176c892bee0e8df138e105f5b3e5e458711ba933652d12a78b0fd0412f4
+- filename: report1.html
+  checksum: 0dfb9ec6b75cf687beca6fa2b129a612df774f52cc07045248dd0e6461a2cb2c
+- filename: reportFinal.html
+  checksum: 64197af596c1a46f8b24229e98549b7a5b953c03a73c1183be1c87e151efddad
+- filename: cypress/reports/mochawesome_004.json
+  checksum: 56bd741bd8853b59c93b2a389eaa453ebbc1aad2e8fa512d5f6520d349549989
+- filename: reportFinal.json
+  checksum: a87b4b0ee505ec052ca144f0c081edf162144df594e38f228d791526441e9392
+- filename: report1.json
+  checksum: e0c2d193a6f8d2957b41a805861f17830decb14deb64860ea9ccd74b303ab10c
 version: ""

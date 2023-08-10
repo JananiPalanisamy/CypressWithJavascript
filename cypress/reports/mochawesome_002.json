@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-08-04T14:46:03.185Z",
+    "end": "2023-08-04T14:46:06.143Z",
+    "duration": 2958,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "5b8fb0a4-0796-4603-b53b-3e4bdf0843d9",
+      "title": "",
+      "fullFile": "cypress/e2e/fileupload.cy.js",
+      "file": "cypress/e2e/fileupload.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3e4eb1dc-5af1-40e6-9ac7-6d49b5bb77ea",
+          "title": "file upload tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "file upload from fixture folder",
+              "fullTitle": "file upload tests file upload from fixture folder",
+              "timedOut": null,
+              "duration": 1049,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://filebin.net/');\ncy.get('#fileField').attachFile('example.json');",
+              "err": {},
+              "uuid": "97057894-1ce3-4a3a-876a-da2be1a32e5c",
+              "parentUUID": "3e4eb1dc-5af1-40e6-9ac7-6d49b5bb77ea",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "file upload from custom folder",
+              "fullTitle": "file upload tests file upload from custom folder",
+              "timedOut": null,
+              "duration": 265,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://filebin.net/');\ncy.get('#fileField').attachFile('../Files/SampleWriteFile.txt');",
+              "err": {},
+              "uuid": "5f065d41-07b0-40a0-afc6-1588e3d60149",
+              "parentUUID": "3e4eb1dc-5af1-40e6-9ac7-6d49b5bb77ea",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "97057894-1ce3-4a3a-876a-da2be1a32e5c",
+            "5f065d41-07b0-40a0-afc6-1588e3d60149"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1314,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
